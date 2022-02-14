@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "swap.h"
 
 #if defined DEBUG
 
@@ -12,12 +13,6 @@
 
 
 
-void swap(int *a, int *b)
-{
-    int p = *a;
-    *a = *b;
-    *b = p;
-}
 
 
 void selection_sort(int arr[], int len)
